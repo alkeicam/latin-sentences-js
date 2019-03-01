@@ -5,5 +5,5 @@ Very simple library that provides access to the list of latin sentences. List is
 https://en.wikipedia.org/wiki/List_of_Latin_phrases
 
 # Usage
-## generating random sentence
-## getting en description
+## Generating random sentence
+## Getting en description for a sentence in latin
