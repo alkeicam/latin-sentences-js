@@ -6,4 +6,16 @@ https://en.wikipedia.org/wiki/List_of_Latin_phrases
 
 # Usage
 ## Generating random sentence
-## Getting en description for a sentence in latin
+```javascript
+import {LatinSentences} from './js/libs/latin-sentences.js' 
+var latinSentences = new LatinSentences();
+var sentence = latinSentences.draw();
+```
+## Getting en meaning or description for a sentence in latin
+```javascript
+import {LatinSentences} from './js/libs/latin-sentences.js' 
+var latinSentences = new LatinSentences();
+var description = latinSentences.describe('ab uno disce omnes');
+var meaning = latinSentences.meaning('ab uno disce omnes');
+
+```
